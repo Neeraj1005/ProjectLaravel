@@ -4,5 +4,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('httprequest','MyController@index');
+Route::view('userview','userview');
+Route::post('usercontroller','UserController@formsubmit');
 
