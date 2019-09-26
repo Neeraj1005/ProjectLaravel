@@ -4,7 +4,6 @@
 	<title>User Info</title>
 </head>
 <body>
-	<h1>Data placed Users view here</h1>
-	{{($name)}}
+	<h1>Setting view</h1>
 </body>
 </html>
