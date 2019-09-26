@@ -6,9 +6,8 @@ Route::get('/', function () {
 
 Route::get('mycontroller','MyController@index');
 
-/*simple calling the view
+//simple calling the view
 Route::view('myroute','users');
-*/
 
 
 /* simple controller route with pass id
