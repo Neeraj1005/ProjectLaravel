@@ -80,6 +80,8 @@
             @endif
 
             <div class="content">
+                <!--For Flash session-->
+                <h1>{{Session::get('data')}}</h1>
                 <div class="title m-b-md">
                     Laravel
                 </div>
